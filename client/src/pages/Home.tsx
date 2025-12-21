@@ -16,39 +16,39 @@ export default function Home() {
   const photos = [
     {
       id: 1,
-      src: "/images/mMl7xcBP7uoW.jpg",
+      src: "/images/extracted-000.png",
       label: "Lighter Front: Presentation Engraving",
       alt: "Front of the lighter showing engraved presentation text",
     },
     {
       id: 2,
-      src: "/images/sLPxK4iRj6IM.jpg",
+      src: "/images/extracted-001.png",
       label: "Lighter Reverse: Class & Hughes Logo",
       alt: "Reverse side showing class designation and manufacturer",
     },
     {
       id: 3,
-      src: "/images/zwO40NgpoiKM.jpg",
+      src: "/images/extracted-002.png",
       label: "Base Stamp: PARK Lighter USA",
       alt: "Base of lighter showing manufacturer mark",
     },
     {
       id: 4,
-      src: "/images/qEJwLTVytCdm.jpg",
+      src: "/images/extracted-003.png",
       label: "Hughes TH-55A Osage Helicopter",
       alt: "Historical photo of the training aircraft",
     },
     {
       id: 5,
-      src: "/images/HoLD8UWngiF2.jpg",
+      src: "/images/extracted-004.png",
       label: "Class 65-9WA Training Class Photo",
       alt: "Historical class photograph from Fort Wolters",
     },
     {
       id: 6,
-      src: "/images/gfXHildcdftZ.jpg",
-      label: "Vietnam War Era Propaganda Art",
-      alt: "Period artwork reflecting the historical context",
+      src: "/images/extracted-005.png",
+      label: "Class Roster: 65-9WA Names",
+      alt: "Class roster with names of trainees",
     },
   ];
 
@@ -97,7 +97,7 @@ export default function Home() {
             {/* Hero Image */}
             <div className="relative h-96 md:h-full">
               <img
-                src="/images/hero-banner.png"
+                src="/images/extracted-000.png"
                 alt="1965 Army Aviation Presentation Lighter"
                 className="w-full h-full object-cover rounded-lg shadow-2xl border border-border"
               />
@@ -301,7 +301,7 @@ FORT WOLTERS, TEXAS
             {/* Product Image */}
             <div className="relative h-96 md:h-full order-2 md:order-1">
               <img
-                src="/images/lighter-showcase.png"
+                src="/images/extracted-001.png"
                 alt="Detailed product showcase"
                 className="w-full h-full object-cover rounded-lg shadow-2xl border border-border"
               />
