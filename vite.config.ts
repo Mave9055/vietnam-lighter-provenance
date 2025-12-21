@@ -10,6 +10,7 @@ const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(
 
 export default defineConfig({
   plugins,
+  base: '/vietnam-lighter-provenance/',
   resolve: {
     alias: {
       "@": path.resolve(import.meta.dirname, "client", "src"),
@@ -42,3 +43,12 @@ export default defineConfig({
     },
   },
 });
+
+// Create 404.html for GitHub Pages SPA fallback
+if (process.env.NODE_ENV === 'production') {
+  const outDir = path.resolve(import.meta.dirname, "dist/public");
+  if (fs.existsSync(outDir)) {
+    const indexHtml = fs.readFileSync(path.join(outDir, 'index.html'), 'utf-8');
+    fs.writeFileSync(path.join(outDir, '404.html'), indexHtml);
+  }
+}
