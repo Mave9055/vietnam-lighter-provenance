@@ -362,27 +362,27 @@ FORT WOLTERS, TEXAS
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
-            {/* Rarity & Authenticity */}
+            {/* Historical Documentation */}
             <div className="document-section p-8">
-              <h3 className="text-lg font-semibold text-primary mb-4">Rarity & Authenticity</h3>
+              <h3 className="text-lg font-semibold text-primary mb-4">Historical Documentation</h3>
               <p className="text-foreground leading-relaxed text-sm">
-                Presentation lighters from the first graduating class of a new training program are exceptionally rare. This example comes with complete provenance, including authentic military engravings, verifiable recipient service record corroborated by official Army archives, and class documentation.
+                Presentation lighters from the first graduating class of a new training program are uncommon. This example includes authentic military engravings consistent with 1965 manufacturing, class designation (65-9WA), and publicly available historical references documenting individuals of this name in Vietnam-era Army aviation records.
               </p>
             </div>
 
-            {/* Collector Appeal */}
+            {/* Research Value */}
             <div className="document-section p-8">
-              <h3 className="text-lg font-semibold text-primary mb-4">Collector Appeal</h3>
+              <h3 className="text-lg font-semibold text-primary mb-4">Research Value</h3>
               <p className="text-foreground leading-relaxed text-sm">
-                Appeals to military history enthusiasts, Vietnam War era collectors, aviation memorabilia collectors, presentation piece collectors, and Fort Wolters historians. The specificity of this artifact makes it particularly desirable for serious collectors and institutions.
+                This artifact provides tangible evidence of Fort Wolters training operations, the Hughes TH-55A adoption, and the transition of Army Aviation training in 1965. Researchers, historians, and collectors interested in Vietnam-era military aviation will find this object historically relevant.
               </p>
             </div>
 
-            {/* Investment Value */}
+            {/* Archival Significance */}
             <div className="document-section p-8">
-              <h3 className="text-lg font-semibold text-primary mb-4">Investment Value</h3>
+              <h3 className="text-lg font-semibold text-primary mb-4">Archival Significance</h3>
               <p className="text-foreground leading-relaxed text-sm">
-                Authenticated military presentation pieces with complete provenance and service record correlation have demonstrated strong appreciation in the collector market. First class designation and verifiable recipient enhance long-term value.
+                This artifact documents a specific moment in U.S. Army Aviation history: the first graduating class trained on the Hughes TH-55A Osage. The combination of engraved details, class designation, and publicly available historical records creates a coherent historical record.
               </p>
             </div>
           </div>
@@ -405,9 +405,9 @@ FORT WOLTERS, TEXAS
             {/* Key Facts */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-6 border-t border-border">
               <div>
-                <h4 className="font-semibold text-primary mb-3">Recipient Service Record</h4>
+                <h4 className="font-semibold text-primary mb-3">Historical References</h4>
                 <p className="text-sm text-foreground leading-relaxed">
-                  Official 25th Infantry Division records document that WO Arthur P. Lancy, Co. B, 25th Avn. Bn. was awarded the Air Medal for heroic achievement in aerial flight (April 1967). This service timeline correlates precisely with a 1965 flight school graduation.
+                  Publicly available historical references document an individual of this name in Vietnam-era Army aviation records, including a 1967 Air Medal listing in 25th Infantry Division archives. These references are provided for historical context only and do not constitute a complete or official service record.
                 </p>
               </div>
               <div>
