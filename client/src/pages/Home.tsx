@@ -353,6 +353,74 @@ FORT WOLTERS, TEXAS
         </div>
       </section>
 
+      {/* Product Description Section */}
+      <section className="py-16 md:py-20">
+        <div className="container">
+          <div className="mb-12">
+            <h2 className="text-3xl font-bold text-primary mb-2">Why This Lighter Matters</h2>
+            <div className="h-1 w-16 bg-accent rounded-full" />
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
+            {/* Rarity & Authenticity */}
+            <div className="document-section p-8">
+              <h3 className="text-lg font-semibold text-primary mb-4">Rarity & Authenticity</h3>
+              <p className="text-foreground leading-relaxed text-sm">
+                Presentation lighters from the first graduating class of a new training program are exceptionally rare. This example comes with complete provenance, including authentic military engravings, verifiable recipient service record corroborated by official Army archives, and class documentation.
+              </p>
+            </div>
+
+            {/* Collector Appeal */}
+            <div className="document-section p-8">
+              <h3 className="text-lg font-semibold text-primary mb-4">Collector Appeal</h3>
+              <p className="text-foreground leading-relaxed text-sm">
+                Appeals to military history enthusiasts, Vietnam War era collectors, aviation memorabilia collectors, presentation piece collectors, and Fort Wolters historians. The specificity of this artifact makes it particularly desirable for serious collectors and institutions.
+              </p>
+            </div>
+
+            {/* Investment Value */}
+            <div className="document-section p-8">
+              <h3 className="text-lg font-semibold text-primary mb-4">Investment Value</h3>
+              <p className="text-foreground leading-relaxed text-sm">
+                Authenticated military presentation pieces with complete provenance and service record correlation have demonstrated strong appreciation in the collector market. First class designation and verifiable recipient enhance long-term value.
+              </p>
+            </div>
+          </div>
+
+          {/* Full Description */}
+          <div className="document-section p-8 md:p-10 space-y-6 bg-card/50">
+            <div>
+              <h3 className="text-2xl font-bold text-primary mb-4">A Piece of Military History</h3>
+              <p className="text-foreground leading-relaxed mb-4">
+                This lighter represents more than a functional object—it is a tangible connection to a transformative moment in military aviation. It documents the training of helicopter pilots who would serve in Vietnam, the adoption of new training aircraft, and the recognition of achievement in a new era of Army Aviation.
+              </p>
+              <p className="text-foreground leading-relaxed mb-4">
+                The Hughes TH-55A Osage adoption in 1965 marked a pivotal transition in U.S. Army Aviation training. This lighter commemorates the first graduating class to train exclusively on this revolutionary helicopter, making it a historically important marker of this transition.
+              </p>
+              <p className="text-foreground leading-relaxed">
+                For collectors, historians, and aviation enthusiasts, this artifact offers both historical significance and the satisfaction of owning an authenticated piece of American military heritage with complete documentary support.
+              </p>
+            </div>
+
+            {/* Key Facts */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-6 border-t border-border">
+              <div>
+                <h4 className="font-semibold text-primary mb-3">Recipient Service Record</h4>
+                <p className="text-sm text-foreground leading-relaxed">
+                  Official 25th Infantry Division records document that WO Arthur P. Lancy, Co. B, 25th Avn. Bn. was awarded the Air Medal for heroic achievement in aerial flight (April 1967). This service timeline correlates precisely with a 1965 flight school graduation.
+                </p>
+              </div>
+              <div>
+                <h4 className="font-semibold text-primary mb-3">Complete Documentation</h4>
+                <p className="text-sm text-foreground leading-relaxed">
+                  Includes high-resolution photographs, class roster, historical class photo, service record documentation, Hughes TH-55A adoption history, and detailed provenance statement with archival corroboration.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Call to Action Section */}
       <section className="py-16 md:py-20 bg-primary text-primary-foreground">
         <div className="container text-center space-y-8">
